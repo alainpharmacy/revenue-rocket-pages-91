@@ -31,9 +31,8 @@ const ServicesSection = () => (
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-3">How We Optimize for AI SEO in 2026?</p>
         <h2 className="font-display text-4xl md:text-5xl font-black">
-          Growth Channels, <span className="text-gradient-gold">Growth Opportunities</span>
+          How We Optimize for <span className="text-gradient-gold">AI SEO</span> in 2026?
         </h2>
       </motion.div>
 
