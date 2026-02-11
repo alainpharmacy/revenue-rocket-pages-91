@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
       {/* Subtle radial glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
@@ -17,10 +17,12 @@ const HeroSection = () => {
           <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-4">
             Ecommerce and Local SEO Expert
           </p>
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6">
-            Be Where It Matters:<br />
-            <span className="text-gradient-gold">AI-Ready Optimization Strategies for the Moments That Define Success.</span>
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-4">
+            Be Where It Matters:
           </h1>
+          <p className="text-gradient-gold font-display text-xl md:text-2xl lg:text-3xl font-bold leading-snug mb-8 max-w-xl">
+            AI-Ready Optimization Strategies for the Moments That Define Success.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#cta"
@@ -48,7 +50,7 @@ const HeroSection = () => {
             <img
               src={heroImage}
               alt="AI-Ready Optimization"
-              className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-2xl border-2 border-primary/30"
+              className="relative w-full max-w-md h-auto aspect-square object-cover rounded-2xl border-2 border-primary/30"
             />
           </div>
         </motion.div>
