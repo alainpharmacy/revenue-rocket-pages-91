@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import headshot from "@/assets/headshot.jpg";
+import heroImage from "@/assets/hero-image.jpeg";
 import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
@@ -21,10 +21,6 @@ const HeroSection = () => {
             Be Where It Matters:<br />
             <span className="text-gradient-gold">AI-Ready Optimization Strategies for the Moments That Define Success.</span>
           </h1>
-          <p className="text-muted-foreground text-lg md:text-xl max-w-lg mb-8 leading-relaxed">
-            Stop burning money on agencies that deliver vanity metrics. We build
-            profit-first funnels that turn cold traffic into paying customers — guaranteed.
-          </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#cta"
@@ -50,8 +46,8 @@ const HeroSection = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-br from-primary/40 to-primary/0 rounded-2xl blur-lg" />
             <img
-              src={headshot}
-              alt="Professional headshot"
+              src={heroImage}
+              alt="AI-Ready Optimization"
               className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-2xl border-2 border-primary/30"
             />
           </div>
