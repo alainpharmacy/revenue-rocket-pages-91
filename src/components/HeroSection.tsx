@@ -15,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.7 }}
         >
           <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-4">
-            Ecommerce and Local SEO Hero
+            Ecommerce and Local SEO Expert
           </p>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6">
             We Scale Your Revenue.<br />
