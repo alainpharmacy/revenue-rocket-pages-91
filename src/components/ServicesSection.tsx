@@ -4,21 +4,21 @@ import { Rocket, Target, BarChart3 } from "lucide-react";
 const services = [
   {
     icon: Rocket,
-    title: "High-Converting Funnels",
+    title: "Growth Channels, Growth Opportunities",
     description:
-      "We architect every page to do one thing: convert. No fluff, no filler — just revenue-generating machines built on proven frameworks.",
+      "I identify your highest-value growth channels for 2026. Then, we execute a precise, aggressive plan to grow and thrive on these channels.",
   },
   {
     icon: Target,
-    title: "Paid Traffic Management",
+    title: "AI Enablement",
     description:
-      "We deploy surgical ad campaigns on Meta, Google & YouTube that target buyers, not browsers. Every dollar tracked, every click accountable.",
+      "Lets ask critical questions: What tasks can AI automate? What new processes can AI enable? How do we leverage AI to drive meaningful user engagement and behavioral outcomes?",
   },
   {
     icon: BarChart3,
-    title: "Revenue Optimization",
+    title: "Reporting and Analytics",
     description:
-      "We obsess over your numbers. From AOV to LTV, we find the hidden profit leaks and plug them — fast. More revenue from the same traffic.",
+      "We drive the conversions, we deliver the results, we show you the outcomes. Total Win-Win situations.",
   },
 ];
 
@@ -31,9 +31,9 @@ const ServicesSection = () => (
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-3">What We Do</p>
+        <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-3">How We Optimize for AI SEO in 2026?</p>
         <h2 className="font-display text-4xl md:text-5xl font-black">
-          Three Pillars of <span className="text-gradient-gold">Explosive Growth</span>
+          Growth Channels, <span className="text-gradient-gold">Growth Opportunities</span>
         </h2>
       </motion.div>
 
