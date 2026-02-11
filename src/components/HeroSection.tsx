@@ -21,7 +21,7 @@ const HeroSection = () => {
             Be Where It Matters:
           </h1>
           <p className="text-gradient-gold font-display text-xl md:text-2xl lg:text-3xl font-bold leading-snug mb-8 max-w-xl">
-            AI-Ready Optimization Strategies for the Moments That Define Success.
+            In 2026, optimization means ability to reach your ready-to-purchase audience. Let's build a custom, AI-proof strategy designed to engage the audience who are looking to purchase.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
