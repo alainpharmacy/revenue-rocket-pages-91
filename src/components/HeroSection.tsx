@@ -18,8 +18,8 @@ const HeroSection = () => {
             Ecommerce and Local SEO Expert
           </p>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6">
-            We Scale Your Revenue.<br />
-            <span className="text-gradient-gold">Not Just Impressions.</span>
+            Be Where It Matters:<br />
+            <span className="text-gradient-gold">AI-Ready Optimization Strategies for the Moments That Define Success.</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-lg mb-8 leading-relaxed">
             Stop burning money on agencies that deliver vanity metrics. We build
