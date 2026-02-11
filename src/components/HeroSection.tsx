@@ -33,9 +33,9 @@ const HeroSection = () => {
             In 2026, optimization means reaching{" "}
             <span className="text-primary font-bold">ready-to-purchase</span>{" "}
             audiences.
-            We build custom,{" "}
-            <span className="text-primary font-bold">AI-proof</span>{" "}
-            strategies to drive your sales.
+            Let's create custom,{" "}
+            <span className="text-primary font-bold">AI-enabled</span>{" "}
+            Search and Answer Engine Optimization strategies to target and engage your ready to buy audience.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 items-center">
