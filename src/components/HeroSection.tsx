@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import NetworkMesh from "./NetworkMesh";
+import heroImage from "@/assets/hero-image.jpeg";
 
 const HeroSection = () => {
   return (
@@ -11,38 +12,33 @@ const HeroSection = () => {
       {/* Network mesh background */}
       <NetworkMesh />
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-10 items-center">
+        {/* Left: Copy */}
         <motion.div
-          className="flex flex-col items-center text-center max-w-[880px] mx-auto"
+          className="flex flex-col items-center lg:items-start text-center lg:text-left"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          {/* Eyebrow */}
           <p className="text-primary font-display font-bold text-xs md:text-sm tracking-[0.25em] uppercase mb-6">
             Ecommerce and Local SEO Expert
           </p>
 
-          {/* Main headline */}
-          <h1 className="font-display text-4xl md:text-5xl lg:text-[4rem] font-black leading-[1.1] mb-6 text-white">
+          <h1 className="font-display text-4xl md:text-5xl lg:text-[3.5rem] font-black leading-[1.1] mb-6 text-white">
             Be right where it matters{" "}
-            <br className="hidden md:block" />
             at the right time!
           </h1>
 
-          {/* Sub-headline with highlighted keywords */}
-          <p className="text-lg md:text-xl text-white/80 font-sans leading-relaxed mb-10 max-w-[750px]">
+          <p className="text-lg md:text-xl text-white/80 font-sans leading-relaxed mb-10 max-w-[600px]">
             In 2026, optimization means reaching{" "}
             <span className="text-primary font-bold">ready-to-purchase</span>{" "}
             audiences.
-            <br className="hidden md:block" />
             We build custom,{" "}
             <span className="text-primary font-bold">AI-proof</span>{" "}
             strategies to drive your sales.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-5 items-center justify-center">
+          <div className="flex flex-col sm:flex-row gap-5 items-center">
             <a
               href="#cta"
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-10 py-4 rounded-lg font-display font-bold text-lg hover:brightness-110 transition-all glow-gold"
@@ -55,6 +51,23 @@ const HeroSection = () => {
             >
               See Our Results
             </a>
+          </div>
+        </motion.div>
+
+        {/* Right: Hero Image */}
+        <motion.div
+          className="flex justify-center lg:justify-end"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+        >
+          <div className="relative">
+            <div className="absolute -inset-2 bg-gradient-to-br from-primary/30 to-primary/0 rounded-2xl blur-xl" />
+            <img
+              src={heroImage}
+              alt="SEO Expert catching Google, Maps, and TikTok Ads"
+              className="relative w-full max-w-md h-auto rounded-2xl border-2 border-primary/20"
+            />
           </div>
         </motion.div>
       </div>
