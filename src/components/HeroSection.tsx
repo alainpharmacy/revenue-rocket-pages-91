@@ -1,57 +1,60 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-image.jpeg";
 import { ArrowRight } from "lucide-react";
+import NetworkMesh from "./NetworkMesh";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
-      {/* Subtle radial glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
+    <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden bg-[#0a0a0a]">
+      {/* Radial warm glow behind center content */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px] bg-primary/8 rounded-full blur-[160px] pointer-events-none" />
 
-      <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+      {/* Network mesh background */}
+      <NetworkMesh />
+
+      <div className="container mx-auto px-6 relative z-10">
         <motion.div
+          className="flex flex-col items-center text-center max-w-[880px] mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-4">
+          {/* Eyebrow */}
+          <p className="text-primary font-display font-bold text-xs md:text-sm tracking-[0.25em] uppercase mb-6">
             Ecommerce and Local SEO Expert
           </p>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-4">
-            Be Where It Matters:
+
+          {/* Main headline */}
+          <h1 className="font-display text-4xl md:text-5xl lg:text-[4rem] font-black leading-[1.1] mb-6 text-white">
+            Be right where it matters{" "}
+            <br className="hidden md:block" />
+            at the right time!
           </h1>
-          <p className="text-gradient-gold font-display text-xl md:text-2xl lg:text-3xl font-bold leading-snug mb-8 max-w-xl">
-            In 2026, optimization means ability to reach your ready-to-purchase audience. Let's build a custom, AI-proof strategy designed to engage the audience who are looking to purchase.
+
+          {/* Sub-headline with highlighted keywords */}
+          <p className="text-lg md:text-xl text-white/80 font-sans leading-relaxed mb-10 max-w-[750px]">
+            In 2026, optimization means reaching{" "}
+            <span className="text-primary font-bold">ready-to-purchase</span>{" "}
+            audiences.
+            <br className="hidden md:block" />
+            We build custom,{" "}
+            <span className="text-primary font-bold">AI-proof</span>{" "}
+            strategies to drive your sales.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-5 items-center justify-center">
             <a
               href="#cta"
-              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-md font-display font-bold text-lg hover:brightness-110 transition-all glow-gold"
+              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-10 py-4 rounded-lg font-display font-bold text-lg hover:brightness-110 transition-all glow-gold"
             >
               Book Your Strategy Call <ArrowRight size={20} />
             </a>
             <a
               href="#results"
-              className="inline-flex items-center justify-center gap-2 border border-border text-foreground px-8 py-4 rounded-md font-display font-semibold text-lg hover:bg-secondary transition-all"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-10 py-4 rounded-lg font-display font-bold text-lg hover:bg-white/10 transition-all"
             >
               See Our Results
             </a>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-          className="flex justify-center lg:justify-end"
-        >
-          <div className="relative">
-            <div className="absolute -inset-1 bg-gradient-to-br from-primary/40 to-primary/0 rounded-2xl blur-lg" />
-            <img
-              src={heroImage}
-              alt="AI-Ready Optimization"
-              className="relative w-full max-w-md h-auto aspect-square object-cover rounded-2xl border-2 border-primary/30"
-            />
           </div>
         </motion.div>
       </div>
