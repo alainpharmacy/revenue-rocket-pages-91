@@ -135,8 +135,8 @@ const ExecutiveRecommendations = () => (
         className="text-center mb-16"
       >
         <h2 className="font-display text-4xl md:text-5xl font-black">
-          Executive{" "}
-          <span className="text-gradient-gold">Recommendations</span>
+          Trusted by Leaders &{" "}
+          <span className="text-gradient-gold">Technical Peers</span>
         </h2>
       </motion.div>
 
