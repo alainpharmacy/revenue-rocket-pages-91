@@ -33,7 +33,7 @@ const recommendations: Recommendation[] = [
     quote:
       "I had the pleasure of working with Jayakrishnan, who was professional & very collaborative with a strong understanding of SEO strategy & best practices, & was always supportive & easy to work with. I would confidently recommend him.",
     date: "Received Nov 2024",
-    linkedinUrl: "#",
+    linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
   {
     name: "Reviewer",
@@ -46,7 +46,7 @@ const recommendations: Recommendation[] = [
     quote:
       "Jayakrishnan has a strong understanding of SEO strategy & best practices. He was professional, very collaborative, and always supportive.",
     date: "Received Oct 2024",
-    linkedinUrl: "#",
+    linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
   {
     name: "Reviewer",
@@ -59,7 +59,7 @@ const recommendations: Recommendation[] = [
     quote:
       "Jayakrishnan delivered outstanding SEO results. His strategic approach and dedication to our project exceeded expectations.",
     date: "Received Sep 2024",
-    linkedinUrl: "#",
+    linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
 ];
 
@@ -78,7 +78,7 @@ const RecommendationCard = ({
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ delay: index * 0.15 }}
-    className="relative block bg-white rounded-xl border border-gray-200 shadow-sm p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-[#0A66C2] group"
+    className="relative flex flex-col bg-white rounded-xl border border-gray-200 shadow-sm p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-[#0A66C2] group h-full"
   >
     {/* Badge */}
     <span className="absolute top-4 right-4 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full">
@@ -113,7 +113,7 @@ const RecommendationCard = ({
     </div>
 
     {/* Quote */}
-    <p className="font-serif italic text-gray-700 leading-relaxed text-sm mb-5">
+    <p className="font-serif italic text-gray-700 leading-relaxed text-sm mb-5 flex-grow">
       "{rec.quote}"
     </p>
 
@@ -140,7 +140,7 @@ const ExecutiveRecommendations = () => (
         </h2>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
         {recommendations.map((rec, i) => (
           <RecommendationCard key={rec.name + i} rec={rec} index={i} />
         ))}
