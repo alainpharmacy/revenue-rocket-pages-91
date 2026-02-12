@@ -17,7 +17,7 @@ const ResultsSection = () => (
         className="text-center mb-16"
       >
         <h2 className="font-display text-4xl md:text-5xl font-black">
-          Expertise <span className="text-gradient-gold">&gt;&gt;</span> Results <span className="text-gradient-gold">&gt;&gt;</span> Impact <span className="text-gradient-gold">&gt;&gt;</span> $$
+          Expertise <span className="text-gradient-gold">&gt;&gt;</span> Results <span className="text-gradient-gold">&gt;&gt;</span> Impact <span className="text-gradient-gold">&gt;&gt;</span> ROI
         </h2>
       </motion.div>
 
