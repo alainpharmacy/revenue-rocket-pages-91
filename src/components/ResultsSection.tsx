@@ -16,9 +16,8 @@ const ResultsSection = () => (
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <p className="text-primary font-display font-bold text-sm tracking-widest uppercase mb-3">Proof, Not Promises</p>
         <h2 className="font-display text-4xl md:text-5xl font-black">
-          The Numbers <span className="text-gradient-gold">Don't Lie</span>
+          Expertise <span className="text-gradient-gold">&gt;&gt;</span> Results <span className="text-gradient-gold">&gt;&gt;</span> Impact <span className="text-gradient-gold">&gt;&gt;</span> $$
         </h2>
       </motion.div>
 
