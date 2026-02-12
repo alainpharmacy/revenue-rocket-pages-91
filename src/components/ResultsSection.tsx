@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 
 const metrics = [
-  { value: "$47M+", label: "Revenue Generated" },
-  { value: "312%", label: "Avg. ROAS" },
-  { value: "200+", label: "Funnels Built" },
-  { value: "98%", label: "Client Retention" },
+  { value: "10+", label: "Years of Experience" },
+  { value: "50+", label: "Businesses Helped" },
+  { value: "35%", label: "Average Revenue Improvement" },
 ];
 
 const ResultsSection = () => (
