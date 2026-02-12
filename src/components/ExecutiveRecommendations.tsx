@@ -44,7 +44,7 @@ const recommendations: Recommendation[] = [
     contextLeft: "Marketing Lead",
     contextRight: "Hired Jayakrishnan for SEO",
     quote:
-      "Jayakrishnan has a strong understanding of SEO strategy & best practices. He was professional, very collaborative, and always supportive.",
+      "I had the pleasure of working with Jayakrishnan, who was professional & very collaborative with a strong understanding of SEO strategy & best practices, & was always supportive & easy to work with. I would confidently recommend him.",
     date: "Received Jan 2026",
     linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
