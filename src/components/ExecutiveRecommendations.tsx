@@ -32,7 +32,7 @@ const recommendations: Recommendation[] = [
     contextRight: "Hired SEO Specialist",
     quote:
       "I had the pleasure of working with Jayakrishnan, who was professional & very collaborative with a strong understanding of SEO strategy & best practices, & was always supportive & easy to work with. I would confidently recommend him.",
-    date: "Received Nov 2024",
+    date: "Received Jan 2026",
     linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
   {
@@ -45,7 +45,7 @@ const recommendations: Recommendation[] = [
     contextRight: "Hired Jayakrishnan for SEO",
     quote:
       "Jayakrishnan has a strong understanding of SEO strategy & best practices. He was professional, very collaborative, and always supportive.",
-    date: "Received Oct 2024",
+    date: "Received Jan 2026",
     linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
   {
@@ -58,7 +58,7 @@ const recommendations: Recommendation[] = [
     contextRight: "Hired Jayakrishnan for SEO",
     quote:
       "Jayakrishnan delivered outstanding SEO results. His strategic approach and dedication to our project exceeded expectations.",
-    date: "Received Sep 2024",
+    date: "Received Jan 2026",
     linkedinUrl: "https://www.linkedin.com/in/jayakrishnan-j-80a04b25a/details/recommendations/",
   },
 ];
