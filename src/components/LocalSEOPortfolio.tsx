@@ -2,11 +2,13 @@ import { motion } from "framer-motion";
 import { MapPin, Plus } from "lucide-react";
 
 import heatmapDental from "@/assets/heatmap-dental.png";
+import heatmapEmergency from "@/assets/heatmap-emergency.png";
 import heatmapWigs from "@/assets/heatmap-wigs.png";
 import heatmapImplants from "@/assets/heatmap-implants.png";
 
 const portfolioItems = [
   { image: heatmapDental, label: "Family Dental — Virginia" },
+  { image: heatmapEmergency, label: "Emergency Dentist — Alabama" },
   { image: heatmapWigs, label: "Medical Wigs — Toronto" },
   { image: heatmapImplants, label: "Dental Implants — Utah" },
 ];
@@ -74,34 +76,35 @@ const LocalSEOPortfolio = () => (
           </motion.div>
         ))}
 
-        {/* CTA Slot */}
-        <motion.div
-          custom={3}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={cardVariants}
-          className="rounded-xl flex flex-col items-center justify-center aspect-[4/3] md:aspect-auto transition-all duration-300 hover:border-[#FFD028]/50"
-          style={{
-            border: "2px dashed #444",
-            backgroundColor: "transparent",
-          }}
-        >
-          <div
-            className="w-16 h-16 rounded-full flex items-center justify-center mb-5"
-            style={{ backgroundColor: "rgba(255, 208, 40, 0.1)" }}
-          >
-            <Plus size={28} style={{ color: "#FFD028" }} />
-          </div>
-          <p className="font-sans font-black text-xl text-white mb-2">
-            Your Business Here
-          </p>
-          <p className="font-sans text-sm flex items-center gap-1.5" style={{ color: "#A1A1A1" }}>
-            <MapPin size={14} style={{ color: "#FFD028" }} />
-            Let's turn your map green.
-          </p>
-        </motion.div>
       </div>
+
+      {/* CTA Slot — full width */}
+      <motion.div
+        custom={4}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={cardVariants}
+        className="mt-8 rounded-xl flex flex-col items-center justify-center py-16 transition-all duration-300 hover:border-[#FFD028]/50"
+        style={{
+          border: "2px dashed #444",
+          backgroundColor: "transparent",
+        }}
+      >
+        <div
+          className="w-16 h-16 rounded-full flex items-center justify-center mb-5"
+          style={{ backgroundColor: "rgba(255, 208, 40, 0.1)" }}
+        >
+          <Plus size={28} style={{ color: "#FFD028" }} />
+        </div>
+        <p className="font-sans font-black text-xl text-white mb-2">
+          Your Business Here
+        </p>
+        <p className="font-sans text-sm flex items-center gap-1.5" style={{ color: "#A1A1A1" }}>
+          <MapPin size={14} style={{ color: "#FFD028" }} />
+          Let's turn your map green.
+        </p>
+      </motion.div>
     </div>
   </section>
 );
