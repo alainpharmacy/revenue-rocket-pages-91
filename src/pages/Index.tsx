@@ -4,6 +4,7 @@ import TrustedBy from "@/components/TrustedBy";
 import ServicesSection from "@/components/ServicesSection";
 import ExecutiveRecommendations from "@/components/ExecutiveRecommendations";
 import ResultsSection from "@/components/ResultsSection";
+import LocalSEOPortfolio from "@/components/LocalSEOPortfolio";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -17,6 +18,7 @@ const Index = () => {
       <ServicesSection />
       <ExecutiveRecommendations />
       <ResultsSection />
+      <LocalSEOPortfolio />
       <TestimonialsSection />
       <CTASection />
       <Footer />
