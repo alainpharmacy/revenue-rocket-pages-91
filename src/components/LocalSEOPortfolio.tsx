@@ -7,7 +7,7 @@ import heatmapWigs from "@/assets/heatmap-wigs.png";
 import heatmapImplants from "@/assets/heatmap-implants.png";
 
 const portfolioItems = [
-  { image: heatmapDental, label: "Family Dental — Virginia" },
+  { image: heatmapDental, label: "Dentist — Virginia" },
   { image: heatmapEmergency, label: "Emergency Dentist — Alabama" },
   { image: heatmapWigs, label: "Medical Wigs — Toronto" },
   { image: heatmapImplants, label: "Dental Implants — Utah" },
