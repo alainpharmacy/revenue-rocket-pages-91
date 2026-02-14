@@ -76,11 +76,11 @@ const EcomSEOPortfolio = () => (
               borderColor: "#333333",
             }}
           >
-            <div className="aspect-[4/3] overflow-hidden">
+            <div className="overflow-hidden">
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="px-5 py-4">
