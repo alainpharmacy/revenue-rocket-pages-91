@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import TrustedBy from "@/components/TrustedBy";
 import ServicesSection from "@/components/ServicesSection";
+import AboutJaySection from "@/components/AboutJaySection";
 import ExecutiveRecommendations from "@/components/ExecutiveRecommendations";
 import ResultsSection from "@/components/ResultsSection";
 import LocalSEOPortfolio from "@/components/LocalSEOPortfolio";
@@ -17,6 +18,7 @@ const Index = () => {
       <HeroSection />
       <TrustedBy />
       <ServicesSection />
+      <AboutJaySection />
       <ExecutiveRecommendations />
       <ResultsSection />
       <LocalSEOPortfolio />
