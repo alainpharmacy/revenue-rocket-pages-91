@@ -16,7 +16,7 @@ const CTASection = () => (
             Sound Like a <span className="text-gradient-gold">Plan?</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-8">
-            If you're interested in that, you'll love what comes next. I'll start by checking your eligibility, auditing your site's untapped potential, and identifying your biggest revenue drivers—then I'll map out a six-month plan to hit those ambitious goals, all for free and with no obligation. Sound like a plan?
+            If you like it so far, you'll love what comes next. I'll start by checking your eligibility, auditing your site's untapped potential, and identifying your biggest revenue drivers—then I'll map out a six-month plan to hit those ambitious goals, all for free and with no obligation. Sound like a plan?
           </p>
           <a
             href="#"
