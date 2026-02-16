@@ -13,11 +13,10 @@ const CTASection = () => (
         <div className="absolute -top-20 -right-20 w-60 h-60 bg-primary/10 rounded-full blur-[80px] pointer-events-none" />
         <div className="relative z-10">
           <h2 className="font-display text-4xl md:text-5xl font-black mb-4">
-            Ready to <span className="text-gradient-gold">Scale?</span>
+            Sound Like a <span className="text-gradient-gold">Plan?</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-8">
-            Book a free 30-minute strategy call. We'll audit your funnel, identify the
-            biggest revenue leaks, and map out a plan to 3X your business — no strings attached.
+            If you're interested in that, you'll love what comes next. I'll start by checking your eligibility, auditing your site's untapped potential, and identifying your biggest revenue drivers—then I'll map out a six-month plan to hit those ambitious goals, all for free and with no obligation. Sound like a plan?
           </p>
           <a
             href="#"
