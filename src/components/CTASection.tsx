@@ -16,7 +16,7 @@ const CTASection = () => (
             Sound Like a <span className="text-gradient-gold">Plan?</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-8">
-            If you like it so far, you'll love what comes next. I'll start by checking your eligibility, auditing your site's untapped potential, and identifying your biggest revenue drivers—then I'll map out a six-month plan to hit those ambitious goals, all for free and with no obligation. Sound like a plan?
+            If you like it so far, you'll love what comes next. Let's hop on a free consultation and see if we're right fit for each other. No pressure/zero sales tactics—just to see if i can help your business. It's either a huge win for your business or a quick consultation for your business. Worth a chat?
           </p>
           <a
             href="#"
