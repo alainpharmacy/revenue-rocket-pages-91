@@ -32,10 +32,10 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-white/80 font-sans leading-relaxed mb-10 max-w-[600px]">
             In 2026, optimization means reaching{" "}
             <span className="text-primary font-bold">ready-to-purchase</span>{" "}
-            audiences.
-            Let's create custom,{" "}
+            audiences. I do this through creating custom,{" "}
             <span className="text-primary font-bold">AI-enabled</span>{" "}
-            Search and Answer Engine Optimization strategies to target and engage your ready to buy audience.
+            Search and Answer Engine Optimization strategies to target and engage your{" "}
+            <span className="text-primary font-bold">ready to buy</span> audience.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 items-center">
