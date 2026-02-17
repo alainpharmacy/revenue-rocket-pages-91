@@ -19,7 +19,9 @@ const CTASection = () => (
             If you like it so far, you'll love what comes next. Let's hop on a free consultation and see if we're right fit for each other. No pressure/zero sales tactics—just to see if i can help your business. It's either a huge win for your business or a quick consultation for your business. Worth a chat?
           </p>
           <a
-            href="#"
+            href="https://calendly.com/jay-jaykk/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-10 py-4 rounded-md font-display font-bold text-lg hover:brightness-110 transition-all glow-gold"
           >
             Book Your Free Call Now <ArrowRight size={20} />
