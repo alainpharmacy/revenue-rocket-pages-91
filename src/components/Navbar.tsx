@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <span className="font-display text-2xl font-bold text-gradient-gold">ScaleForce</span>
+        <span className="font-display text-2xl font-bold text-gradient-gold">Catchero</span>
         <div className="hidden md:flex items-center gap-8">
           {["Services", "Results", "Testimonials"].map((item) => (
             <a key={item} href={`#${item.toLowerCase()}`} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
