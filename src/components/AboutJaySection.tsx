@@ -15,6 +15,8 @@ const AboutJaySection = () => (
           <img
             src={jayPhoto}
             alt="Jayakrishnan – AI-enabled SEO specialist"
+            loading="lazy"
+            decoding="async"
             className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
           />
         </motion.div>

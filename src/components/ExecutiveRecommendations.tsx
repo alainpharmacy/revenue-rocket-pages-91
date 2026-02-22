@@ -91,11 +91,15 @@ const RecommendationCard = ({
         <img
           src={rec.avatar}
           alt={rec.name}
+          loading="lazy"
+          decoding="async"
           className="w-16 h-16 rounded-full object-cover border-2 border-gray-100"
         />
         <img
           src={rec.companyLogo}
           alt="Company"
+          loading="lazy"
+          decoding="async"
           className="absolute -bottom-1 -right-1 w-6 h-6 rounded-md object-contain bg-white border border-gray-200 shadow-sm"
         />
       </div>

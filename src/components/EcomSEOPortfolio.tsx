@@ -80,6 +80,8 @@ const EcomSEOPortfolio = () => (
               <img
                 src={item.image}
                 alt={item.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
               />
             </div>

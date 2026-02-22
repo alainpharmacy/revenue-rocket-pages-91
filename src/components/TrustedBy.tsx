@@ -24,6 +24,8 @@ const TrustedBy = () => (
             key={logo.name}
             src={logo.src}
             alt={logo.name}
+            loading="lazy"
+            decoding="async"
             className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
           />
         ))}
