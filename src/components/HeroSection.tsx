@@ -69,6 +69,8 @@ const HeroSection = () => {
               src={heroImage}
               alt="SEO Expert catching Google, Maps, and TikTok Ads"
               className="relative w-full max-w-md h-auto rounded-2xl border-2 border-primary/20"
+              fetchPriority="high"
+              decoding="async"
             />
           </div>
         </motion.div>

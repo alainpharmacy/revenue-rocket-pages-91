@@ -65,6 +65,8 @@ const LocalSEOPortfolio = () => (
               <img
                 src={item.image}
                 alt={item.label}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
               />
             </div>
