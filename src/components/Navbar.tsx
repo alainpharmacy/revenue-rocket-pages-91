@@ -15,7 +15,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#cta"
+            href="https://calendly.com/jay-jaykk/30min?month=2026-03"
             className="bg-primary text-primary-foreground px-5 py-2.5 rounded-md font-display font-bold text-sm hover:brightness-110 transition-all"
           >
             Book a Call
